@@ -8,7 +8,8 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/componen
 import { useCart } from '@/hooks/use-cart';
 import placeholderImages from '@/lib/placeholder-images.json';
 import RatingStars from './rating-stars';
-import { ShoppingCart } from 'lucide-react';
+import { ShoppingCart, Heart, Share2 } from 'lucide-react';
+import { useToast } from '@/hooks/use-toast';
 
 interface ProductCardProps {
   product: Product;
@@ -16,6 +17,7 @@ interface ProductCardProps {
 
 export default function ProductCard({ product }: ProductCardProps) {
   const { addItem } = useCart();
+  const { toast } = useToast();
   const productImage = placeholderImages.placeholderImages.find(p => p.id === product.image);
 
   const handleAddToCart = () => {
@@ -26,9 +28,24 @@ export default function ProductCard({ product }: ProductCardProps) {
       image: product.image,
     }, 1);
   };
+  
+  const handleAddToWishlist = () => {
+    toast({
+        title: 'Added to Wishlist',
+        description: `${product.name} has been added to your wishlist.`,
+    });
+  };
+
+  const handleShare = () => {
+    navigator.clipboard.writeText(`${window.location.origin}/products/${product.slug}`);
+    toast({
+        title: 'Link Copied',
+        description: 'Product link copied to clipboard.',
+    });
+  };
 
   return (
-    <Card className="flex h-full transform flex-col overflow-hidden rounded-lg shadow-md transition-all duration-300 hover:scale-105 hover:shadow-xl">
+    <Card className="group flex h-full transform flex-col overflow-hidden rounded-lg shadow-md transition-all duration-300 hover:scale-105 hover:shadow-xl">
       <CardHeader className="relative p-0">
         <Link href={`/products/${product.slug}`}>
           <div className="aspect-square w-full">
@@ -43,6 +60,14 @@ export default function ProductCard({ product }: ProductCardProps) {
             )}
           </div>
         </Link>
+        <div className="absolute right-2 top-2 flex flex-col gap-2 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+            <Button size="icon" variant="outline" className="rounded-full bg-background/80 hover:bg-background" onClick={handleAddToWishlist}>
+                <Heart className="h-5 w-5 text-primary"/>
+            </Button>
+            <Button size="icon" variant="outline" className="rounded-full bg-background/80 hover:bg-background" onClick={handleShare}>
+                <Share2 className="h-5 w-5 text-primary"/>
+            </Button>
+        </div>
       </CardHeader>
       <CardContent className="flex-grow p-4">
         <div className="flex items-start justify-between">

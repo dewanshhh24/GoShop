@@ -19,7 +19,26 @@ export default function MainNav({
       label: 'Home',
       active: pathname === `/`,
     },
-    // You could map categories to routes here if needed
+    {
+      href: `/products`,
+      label: 'All Products',
+      active: pathname === `/products`,
+    },
+    {
+      href: `/categories`,
+      label: 'Categories',
+      active: pathname.startsWith(`/categories`),
+    },
+    {
+      href: `/about`,
+      label: 'About Us',
+      active: pathname === `/about`,
+    },
+    {
+      href: `/contact`,
+      label: 'Contact',
+      active: pathname === `/contact`,
+    },
   ];
 
   return (
