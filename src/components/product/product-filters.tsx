@@ -68,7 +68,7 @@ export default function ProductFilters({
             <div className="grid gap-2">
                 <div className="flex justify-between">
                     <Label>Price Range</Label>
-                    <span className="text-sm text-muted-foreground">${filters.minPrice} - ${filters.maxPrice}</span>
+                    <span className="text-sm text-muted-foreground">₹{filters.minPrice} - ₹{filters.maxPrice}</span>
                 </div>
                 <Slider
                     defaultValue={[0, 1000]}
