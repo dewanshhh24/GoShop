@@ -78,7 +78,7 @@ export default function ContactPage() {
                 <h3 className="text-lg font-semibold">Phone</h3>
                 <p className="text-muted-foreground">Give us a call during business hours.</p>
                 <a href="tel:+1234567890" className="text-primary hover:underline">
-                  +1 (234) 567-890
+                  +91 89898989
                 </a>
               </div>
             </div>
@@ -88,7 +88,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <h3 className="text-lg font-semibold">Our Office</h3>
-                <p className="text-muted-foreground">123 GoShop Avenue, Commerce City, 12345</p>
+                <p className="text-muted-foreground">24, Nagpur</p>
               </div>
             </div>
         </div>

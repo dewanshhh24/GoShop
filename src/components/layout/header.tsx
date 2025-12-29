@@ -6,7 +6,7 @@ import MainNav from './main-nav';
 import UserNav from './user-nav';
 import { Button } from '@/components/ui/button';
 import { useCart } from '@/hooks/use-cart';
-import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
 import { useState } from 'react';
 
 export default function Header() {
@@ -30,6 +30,9 @@ export default function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="left">
+              <SheetHeader>
+                <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
+              </SheetHeader>
               <nav className="grid gap-6 text-lg font-medium">
                 <Link
                   href="/"
