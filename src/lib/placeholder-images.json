@@ -1,3 +1,70 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-section",
+      "description": "Stylish woman wearing modern sunglasses",
+      "imageUrl": "https://images.unsplash.com/photo-1549062572-544a64fb0c56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21hbiUyMGZhc2hpb258ZW58MHx8fHwxNzY3MDI4NzI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman fashion"
+    },
+    {
+      "id": "product-smart-watch",
+      "description": "Sleek and modern smart watch",
+      "imageUrl": "https://images.unsplash.com/photo-1617043983671-adaadcaa2460?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzbWFydCUyMHdhdGNofGVufDB8fHx8MTc2NzAyMDY5M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smart watch"
+    },
+    {
+      "id": "product-leather-backpack",
+      "description": "Vintage leather backpack",
+      "imageUrl": "https://images.unsplash.com/photo-1668954443591-ea2072a6b4b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bGVhdGhlciUyMGJhY2twYWNrfGVufDB8fHx8MTc2Njk5NzE5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "leather backpack"
+    },
+    {
+      "id": "product-wireless-headphones",
+      "description": "High-fidelity wireless headphones",
+      "imageUrl": "https://images.unsplash.com/photo-1491927570842-0261e477d937?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3aXJlbGVzcyUyMGhlYWRwaG9uZXN8ZW58MHx8fHwxNzY2OTIxMDQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wireless headphones"
+    },
+    {
+      "id": "product-denim-jacket",
+      "description": "Classic blue denim jacket",
+      "imageUrl": "https://images.unsplash.com/photo-1537465978529-d23b17165b3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkZW5pbSUyMGphY2tldHxlbnwwfHx8fDE3NjY5NzUwNDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "denim jacket"
+    },
+    {
+      "id": "product-running-shoes",
+      "description": "Comfortable running shoes",
+      "imageUrl": "https://images.unsplash.com/photo-1562183241-b937e95585b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxydW5uaW5nJTIwc2hvZXN8ZW58MHx8fHwxNzY2OTM0ODM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "running shoes"
+    },
+    {
+      "id": "product-coffee-maker",
+      "description": "Automatic drip coffee maker",
+      "imageUrl": "https://images.unsplash.com/photo-1515442094343-9a10f85a4b79?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjb2ZmZWUlMjBtYWtlcnxlbnwwfHx8fDE3NjcwMjExMDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee maker"
+    },
+    {
+      "id": "product-sunglasses",
+      "description": "Stylish aviator sunglasses",
+      "imageUrl": "https://images.unsplash.com/photo-1681147768258-d869869d2d97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzdW5nbGFzc2VzJTIwZmFzaGlvbnxlbnwwfHx8fDE3NjY5NzUwNDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sunglasses fashion"
+    },
+    {
+      "id": "product-yoga-mat",
+      "description": "Eco-friendly yoga mat",
+      "imageUrl": "https://images.unsplash.com/photo-1637157216470-d92cd2edb2e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx5b2dhJTIwbWF0fGVufDB8fHx8MTc2NzAxNTk1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "yoga mat"
+    },
+    {
+      "id": "user-avatar-1",
+      "description": "Avatar for admin user",
+      "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjY5Njk0Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "user-avatar-2",
+      "description": "Avatar for regular user",
+      "imageUrl": "https://images.unsplash.com/photo-1600180758890-6b94519a8ba6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjY5Njk0Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    }
+  ]
 }
